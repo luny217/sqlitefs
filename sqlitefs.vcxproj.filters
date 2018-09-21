@@ -1,0 +1,387 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="inc">
+      <UniqueIdentifier>{9bd4fc43-5789-4f44-8b2d-ffa8fd15ca24}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="util">
+      <UniqueIdentifier>{bbba7af8-7157-4c08-a238-3c0e94745f9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="tsrc">
+      <UniqueIdentifier>{88884025-6414-4623-b1a3-a3511a7d878e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="test">
+      <UniqueIdentifier>{45ff2ae4-e7b9-4dd8-8b5d-cb27570dbbed}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="tsrc\malloc.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\mem0.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\mem1.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\mem2.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\mem3.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\mem5.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\memdb.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\memjournal.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\mutex.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\mutex_noop.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\mutex_unix.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\mutex_w32.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\notify.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\opcodes.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\os.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\os_win.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\pager.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\parse.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\pcache.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\pcache1.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\pragma.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\prepare.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\printf.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\random.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\resolve.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\rowset.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\rtree.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\select.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\sqlite3rbu.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\sqlite3session.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\status.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\stmt.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\table.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\threads.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\tokenize.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\treeview.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\trigger.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\update.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\upsert.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\utf.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\util.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\vacuum.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\vdbe.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\vdbeapi.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\vdbeaux.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\vdbeblob.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\vdbemem.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\vdbesort.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\vdbetrace.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\vtab.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\wal.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\walker.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\where.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\wherecode.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\whereexpr.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\alter.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\analyze.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\attach.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\auth.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\backup.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\bitvec.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\btmutex.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\btree.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\build.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\callback.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\complete.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\ctime.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\date.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\dbpage.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\dbstat.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\delete.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\expr.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\fault.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\fkey.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\func.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\global.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\hash.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\icu.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\insert.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\json1.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\legacy.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\loadext.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="tsrc\main.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sqlite_test\test\sqltest.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="..\sqlite_test\test\test_onefile.c">
+      <Filter>test</Filter>
+    </ClCompile>
+    <ClCompile Include="util\av_log.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\nlist.c">
+      <Filter>util</Filter>
+    </ClCompile>
+    <ClCompile Include="util\base.c">
+      <Filter>util</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="tsrc\msvc.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\mutex.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\opcodes.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\os.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\os_common.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\os_setup.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\os_win.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\pager.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\parse.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\pcache.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\pragma.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\rtree.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\sqlite3.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\sqlite3ext.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\sqlite3rbu.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\sqlite3rtree.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\sqlite3session.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\sqliteicu.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\sqliteInt.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\sqliteLimit.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\vdbe.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\vdbeInt.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\vxworks.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\wal.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\whereInt.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\btree.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\btreeInt.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\config.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\hash.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\hwtime.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\keywordhash.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="util\av_log.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\base.h">
+      <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="util\nlist.h">
+      <Filter>util</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
