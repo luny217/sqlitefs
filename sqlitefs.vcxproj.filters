@@ -18,22 +18,7 @@
     <ClCompile Include="tsrc\malloc.c">
       <Filter>tsrc</Filter>
     </ClCompile>
-    <ClCompile Include="tsrc\mem0.c">
-      <Filter>tsrc</Filter>
-    </ClCompile>
     <ClCompile Include="tsrc\mem1.c">
-      <Filter>tsrc</Filter>
-    </ClCompile>
-    <ClCompile Include="tsrc\mem2.c">
-      <Filter>tsrc</Filter>
-    </ClCompile>
-    <ClCompile Include="tsrc\mem3.c">
-      <Filter>tsrc</Filter>
-    </ClCompile>
-    <ClCompile Include="tsrc\mem5.c">
-      <Filter>tsrc</Filter>
-    </ClCompile>
-    <ClCompile Include="tsrc\memdb.c">
       <Filter>tsrc</Filter>
     </ClCompile>
     <ClCompile Include="tsrc\memjournal.c">
@@ -165,9 +150,6 @@
     <ClCompile Include="tsrc\vtab.c">
       <Filter>tsrc</Filter>
     </ClCompile>
-    <ClCompile Include="tsrc\wal.c">
-      <Filter>tsrc</Filter>
-    </ClCompile>
     <ClCompile Include="tsrc\walker.c">
       <Filter>tsrc</Filter>
     </ClCompile>
@@ -246,13 +228,7 @@
     <ClCompile Include="tsrc\hash.c">
       <Filter>tsrc</Filter>
     </ClCompile>
-    <ClCompile Include="tsrc\icu.c">
-      <Filter>tsrc</Filter>
-    </ClCompile>
     <ClCompile Include="tsrc\insert.c">
-      <Filter>tsrc</Filter>
-    </ClCompile>
-    <ClCompile Include="tsrc\json1.c">
       <Filter>tsrc</Filter>
     </ClCompile>
     <ClCompile Include="tsrc\legacy.c">
@@ -347,12 +323,6 @@
     <ClInclude Include="tsrc\vdbeInt.h">
       <Filter>tsrc</Filter>
     </ClInclude>
-    <ClInclude Include="tsrc\vxworks.h">
-      <Filter>tsrc</Filter>
-    </ClInclude>
-    <ClInclude Include="tsrc\wal.h">
-      <Filter>tsrc</Filter>
-    </ClInclude>
     <ClInclude Include="tsrc\whereInt.h">
       <Filter>tsrc</Filter>
     </ClInclude>
@@ -382,6 +352,12 @@
     </ClInclude>
     <ClInclude Include="util\nlist.h">
       <Filter>util</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\vxworks.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\wal.h">
+      <Filter>tsrc</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

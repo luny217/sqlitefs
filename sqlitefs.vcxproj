@@ -28,7 +28,7 @@
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <PlatformToolset>v140</PlatformToolset>
-    <CharacterSet>MultiByte</CharacterSet>
+    <CharacterSet>Unicode</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
@@ -76,7 +76,7 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_HAVE_SQLITE_CONFIG_H;SQLITE_CORE;SQLITE_DEBUG;SQLITE_ENABLE_IOTRACE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>_CRT_SECURE_NO_WARNINGS;_HAVE_SQLITE_CONFIG_H;SQLITE_CORE;SQLITE_DEBUG;SQLITE_ENABLE_IOTRACE;SQLITE_OMIT_WAL;SQLITE_ENABLE_RTREE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <AdditionalDependencies>Ws2_32.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -140,19 +140,12 @@
     <ClCompile Include="tsrc\func.c" />
     <ClCompile Include="tsrc\global.c" />
     <ClCompile Include="tsrc\hash.c" />
-    <ClCompile Include="tsrc\icu.c" />
     <ClCompile Include="tsrc\insert.c" />
-    <ClCompile Include="tsrc\json1.c" />
     <ClCompile Include="tsrc\legacy.c" />
     <ClCompile Include="tsrc\loadext.c" />
     <ClCompile Include="tsrc\main.c" />
     <ClCompile Include="tsrc\malloc.c" />
-    <ClCompile Include="tsrc\mem0.c" />
     <ClCompile Include="tsrc\mem1.c" />
-    <ClCompile Include="tsrc\mem2.c" />
-    <ClCompile Include="tsrc\mem3.c" />
-    <ClCompile Include="tsrc\mem5.c" />
-    <ClCompile Include="tsrc\memdb.c" />
     <ClCompile Include="tsrc\memjournal.c" />
     <ClCompile Include="tsrc\mutex.c" />
     <ClCompile Include="tsrc\mutex_noop.c" />
@@ -196,7 +189,6 @@
     <ClCompile Include="tsrc\vdbesort.c" />
     <ClCompile Include="tsrc\vdbetrace.c" />
     <ClCompile Include="tsrc\vtab.c" />
-    <ClCompile Include="tsrc\wal.c" />
     <ClCompile Include="tsrc\walker.c" />
     <ClCompile Include="tsrc\where.c" />
     <ClCompile Include="tsrc\wherecode.c" />

@@ -66,6 +66,7 @@
 #include <string.h>
 #include <assert.h>
 #include <stdio.h>
+#include <stdlib.h>
 
 #ifndef SQLITE_AMALGAMATION
 #include "sqlite3rtree.h"
