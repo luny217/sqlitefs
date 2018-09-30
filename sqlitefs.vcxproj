@@ -193,6 +193,7 @@
     <ClCompile Include="tsrc\where.c" />
     <ClCompile Include="tsrc\wherecode.c" />
     <ClCompile Include="tsrc\whereexpr.c" />
+    <ClCompile Include="tsrc\win32io.c" />
     <ClCompile Include="util\av_log.c" />
     <ClCompile Include="util\base.c" />
     <ClCompile Include="util\nlist.c" />
@@ -224,11 +225,13 @@
     <ClInclude Include="tsrc\sqliteicu.h" />
     <ClInclude Include="tsrc\sqliteInt.h" />
     <ClInclude Include="tsrc\sqliteLimit.h" />
+    <ClInclude Include="tsrc\storage_device.h" />
     <ClInclude Include="tsrc\vdbe.h" />
     <ClInclude Include="tsrc\vdbeInt.h" />
     <ClInclude Include="tsrc\vxworks.h" />
     <ClInclude Include="tsrc\wal.h" />
     <ClInclude Include="tsrc\whereInt.h" />
+    <ClInclude Include="tsrc\win32io.h" />
     <ClInclude Include="util\av_log.h" />
     <ClInclude Include="util\base.h" />
     <ClInclude Include="util\nlist.h" />

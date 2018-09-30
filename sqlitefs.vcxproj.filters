@@ -255,6 +255,9 @@
     <ClCompile Include="util\base.c">
       <Filter>util</Filter>
     </ClCompile>
+    <ClCompile Include="tsrc\win32io.c">
+      <Filter>tsrc</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="tsrc\msvc.h">
@@ -357,6 +360,12 @@
       <Filter>tsrc</Filter>
     </ClInclude>
     <ClInclude Include="tsrc\wal.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\win32io.h">
+      <Filter>tsrc</Filter>
+    </ClInclude>
+    <ClInclude Include="tsrc\storage_device.h">
       <Filter>tsrc</Filter>
     </ClInclude>
   </ItemGroup>
