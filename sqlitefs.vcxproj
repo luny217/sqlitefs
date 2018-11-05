@@ -117,7 +117,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\sqlite_test\test\sqltest.c" />
-    <ClCompile Include="..\sqlite_test\test\test_onefile.c" />
+    <ClCompile Include="test\test_onefile.c" />
     <ClCompile Include="tsrc\alter.c" />
     <ClCompile Include="tsrc\analyze.c" />
     <ClCompile Include="tsrc\attach.c" />

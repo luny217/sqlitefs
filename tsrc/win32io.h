@@ -77,4 +77,6 @@ uint32_t win32io_get_sector_count(void* device);
 //
 static void win32io_async_worker();
 
+int xopen_win32(TCHAR* physical_drive);
+
 #endif

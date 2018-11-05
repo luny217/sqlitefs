@@ -243,9 +243,6 @@
     <ClCompile Include="..\sqlite_test\test\sqltest.c">
       <Filter>test</Filter>
     </ClCompile>
-    <ClCompile Include="..\sqlite_test\test\test_onefile.c">
-      <Filter>test</Filter>
-    </ClCompile>
     <ClCompile Include="util\av_log.c">
       <Filter>util</Filter>
     </ClCompile>
@@ -257,6 +254,9 @@
     </ClCompile>
     <ClCompile Include="tsrc\win32io.c">
       <Filter>tsrc</Filter>
+    </ClCompile>
+    <ClCompile Include="test\test_onefile.c">
+      <Filter>test</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

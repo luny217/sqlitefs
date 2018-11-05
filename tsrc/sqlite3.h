@@ -669,8 +669,9 @@ SQLITE_API int sqlite3_exec(
 ** [sqlite3_io_methods] object that defines methods for performing
 ** I/O operations on the open file.
 */
-typedef struct sqlite3_file sqlite3_file;
-struct sqlite3_file {
+typedef struct _sqlite3_file sqlite3_file;
+struct _sqlite3_file 
+{
   const struct sqlite3_io_methods *pMethods;  /* Methods for an open file */
 };
 
